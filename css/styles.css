@@ -1,0 +1,179 @@
+:root {
+  --color-primary: #212121;
+  --color-brand: #2196f3;
+  --color-secondary: #757575;
+  --color-light: #ffffff;
+  --color-bg-dark: #2f303a;
+  --color-logo: #000000;
+  --color-light-secondary: rgba(255, 255, 255, 0.6);
+  --color-bg-light: #f5f4fa;
+  --color-bg-button: #188ce8;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-primary);
+}
+/* Section title */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--color-logo);
+}
+.header-logo .accent {
+  color: var(--color-brand);
+}
+.header-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-brand);
+}
+.header-link.current {
+  color: var(--color-brand);
+}
+.contacts-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--color-brand);
+}
+/* Hero section */
+.hero-section {
+  background-color: var(--color-bg-dark);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-light);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: var(--color-brand);
+  color: var(--color-light);
+  cursor: pointer;
+  border: none;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--color-bg-button);
+  color: var(--color-light);
+}
+/* Benefits section */
+.benefit-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.benefit-text {
+  line-height: 1.7;
+  color: var(--color-secondary);
+}
+/* Team section */
+.team-section {
+  background-color: var(--color-bg-light);
+}
+.person-portrait {
+  background-color: var(--color-light);
+}
+.person-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.person-job {
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-secondary);
+}
+/* Project section */
+.project-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--color-bg-light);
+  border: none;
+}
+.project-button:hover,
+.project-button:focus {
+  background-color: var(--color-brand);
+  color: var(--color-light);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-primary);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--color-secondary);
+}
+/* Footer */
+footer {
+  background-color: var(--color-bg-dark);
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--color-light);
+}
+.footer-logo .accent {
+  color: var(--color-brand);
+}
+.footer-adress {
+  line-height: 1.7;
+  color: var(--color-light);
+  font-style: normal;
+}
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--color-brand);
+}
+.footer-link {
+  line-height: 1.7;
+  color: var(--color-light-secondary);
+  font-style: normal;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--color-brand);
+}
